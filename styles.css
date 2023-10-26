@@ -10,13 +10,13 @@ body {
 
 }
 
-/**------------------------------------------- HERO ------------------------------------------- */
+/* ?------------------------------------------- HERO ------------------------------------------- */
 
 .hero {
     position: relative;
     width: 100vw;
     height: 100vh;
-    border: 1px solid red;
+    border: 1px solid transparent;
 }
 
 .nav {
@@ -47,6 +47,11 @@ body {
     text-align: center;
 }
 
+.nav-links{
+    text-decoration: none;
+    color: #000000;
+}
+
 .download-container {
     width: 400px;
     float: right;
@@ -64,6 +69,7 @@ body {
     color: #FCFDFE;
     background-color: #4285F4;
     border-radius: 5px;
+    border: 0px;
 }
 
 
@@ -78,16 +84,14 @@ body {
 }
 
 .started-container {
-    border:  1px solid green;
     margin-top: 140px;
     display: flex;
 }
 
 .started-left {
-    border:  1px solid orange;
     margin-top: 30px;
     height: 300px;
-    width: 500px;
+    width: 600px;
     padding-left: 50px;
     margin-left: 20px;
 }
@@ -95,10 +99,18 @@ body {
 .started-title {
     font-family: 'Rubik', sans-serif;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 60px;
+}
+
+.title-color {
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    color: #4285F4;
 }
 
 .started-text {
+    font-size: 20px;
     color: #616161;
 }
 
@@ -106,6 +118,7 @@ body {
     height: 40px;
     width: 150px;
     color: #FCFDFE;
+    font-size: 15px;
     font-weight: bold;
     background-color: #EC5863;
     border-radius: 5px;
@@ -113,6 +126,228 @@ body {
 }
 
 .started-image {
-    border:  1px solid orange;
-    margin-left: 650px;
+    margin-left: 550px;
+}
+
+.hero-video-container {
+    height: 120px;
+    margin-top: 150px;
+}
+
+.hero-play-bttn{
+    border: 0px;
+    background-color: transparent;
+}
+
+.video-cont {
+    height: 70px;
+    width: 300px;
+    margin-left: 70px;
+    margin-top: 25px;
+}
+
+.hero-play-title{
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 10px;
+    font-family: 'Rubik', sans-serif;
+    color: #B0B0B0;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.hero-play-text{
+    position: absolute;
+    margin-top: 23px;
+    margin-left: 10px;
+    font-family: 'Rubik', sans-serif;
+    color: #000000;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+/* ?--------------------------------------- SECOND PAGE --------------------------------------- */
+
+.app-page {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    border: 1px solid transparent;
+}
+
+.app-content {
+    display: flex;
+    width: 65%;
+    margin: auto;
+    margin-top: 10%;
+}
+
+.app-content-right {
+    margin: auto;
+}
+
+.app-title{
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.app-title-color {
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    color: #EC5863;
+}
+
+.app-text{
+    color: #616161;
+    font-size: 20px;
+}
+
+.app-bttn {
+    height: 40px;
+    width: 150px;
+    color: #FCFDFE;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #EC5863;
+    border-radius: 5px;
+    border: 0px;
+}
+
+/* ?---------------------------------------- THIRD PAGE ---------------------------------------- */
+
+.experts-page {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    border: 1px solid transparent;
+}
+
+.experts-shape {
+    color: #FFFFFF;
+    width: 1200px;
+    height: 150px;
+    margin: auto;
+    margin-top: 10%;
+    border-radius: 16px;
+    box-shadow: 0px 2px 24px 0px #587EEC26;
+    z-index: -1;
+    display: flex;
+    
+}
+
+.stats {
+    margin: auto;
+    text-align: center;
+    
+}
+
+.experts-color {
+    color: #EC5863;
+    font-family: Rubik , sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43px;
+    letter-spacing: 0.14em;
+    text-align: center;
+
+}
+
+.experts-color-text {
+    color: #000000;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 0.3em;
+}
+
+.experts-content {
+    display: flex;
+    width: 85%;
+    margin-top: 5%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.experts-content-left {
+    padding-top: 4%;
+}
+
+.experts-content-right {
+    margin-left: 20%;
+}
+
+/* ?---------------------------------------- FOURTH PAGE ---------------------------------------- */
+
+.features-page {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    border: 1px solid transparent;
+}
+
+.title-block{
+    height: fit-content;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    margin-top: 6%;
+}
+
+.title-features {
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    color: #EC5863;
+}
+
+.healthcare-cards {
+    width: 85%;
+    margin: auto;
+    margin-top: 5%;
+    height: fit-content;
+    display: flex;
+}
+
+.health-card {
+    margin: auto;
+    width: 25%;
+    height: 400px;
+    text-align: center;
+    padding-top: 4%;
+    border-radius: 16px;
+    box-shadow: 0px 2px 24px 0px #587EEC26;
+}
+
+.card-title{
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.08em;
+    text-align: center;
+    
+}
+
+.mobile-apps{
+    display: flex;
+    width: 30%;
+    margin: auto;
+    margin-top: 5%;
+    height: fit-content;
+}
+
+.app-link-bttn {
+    background-color: transparent;
+    height: min-content;
+    margin: auto;
+    
+}
+
+.shape23{
+    z-index: -1;
+    margin-left: 9%;
+    margin-top:24%;
+    position: absolute;
 }
